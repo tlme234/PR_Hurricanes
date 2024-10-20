@@ -18,9 +18,9 @@ Climate change is exacerbating severe weather across the globe and hurricanes ar
 ### Mapmaking Process
 I sourced my initial hurricane shapefile through ArcGIS which used data from the National Oceanic and Atmospheric Administration.  After the shapefile was successfully imported I was able to filter the data to exclude those hurricanes which were unnamed (lesser strength) and removed hurricanes which were not in proximity to the area of interest around the island. 
 
-Example of data import ![Importing hurricane track raw data](graphics/map_in_progress.png)
+Importing hurricane track raw data ![Importing hurricane track raw data](graphics/map_in_progress.png)
 
-Example of attribute table from data import ![Unfiltered attribute table](graphics/hurricane_tracks_attributes.png)
+Unfiltered attribute table ![Unfiltered attribute table](graphics/hurricane_tracks_attributes.png)
 
 The hurricane track layer was fun to work with - I enjoyed using graduated symbology features to emphasize the strength of the hurricanes in QGIS. This process consisted of modifying both the color and the line width to distinguish the differences in hurricane wind speed. I attempted to use complementary colors between the lines and other map elements which took some trial and error. I then structured the shapefile layers in a way that was coherent and allowed the elements to be presented clearly without obstructing one another. Once the map graphic was finished, I entered into the layout where I finalized the arrangment of the map frame and the various attributes to utilize the full canvas. After more trial and error I decided to add a background mask to the text blocks to make them appear more legible against the background and separated the legend into it's two seperate categories: one for the hurricane tracks and one for the urban and nature centers. 
 
